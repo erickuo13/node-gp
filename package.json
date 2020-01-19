@@ -1,0 +1,28 @@
+{
+  "name": "node-gp",
+  "version": "1.0.0",
+  "description": "CDN Greypanel clean cache API",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickuo13/node-gp.git"
+  },
+  "keywords": [
+    "cdn",
+    "greypanel",
+    "api",
+    "cache"
+  ],
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "author": "erickuo <erickuo13@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erickuo13/node-gp/issues"
+  },
+  "homepage": "https://github.com/erickuo13/node-gp#readme"
+}
