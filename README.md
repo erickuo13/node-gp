@@ -1,4 +1,4 @@
-# Node-GP
+# Node-GreyPanel
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 This is Nodejs SDK of CDN GreyPanel. Below is now support functional :
@@ -17,20 +17,20 @@ This is Nodejs SDK of CDN GreyPanel. Below is now support functional :
 
 Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
 ```sh
-$ npm install node-gp --save
+$ npm install node-greypanel --save
 ```
 
 ### How to use
 
 Follow below code :
 
-First Step: require node-gp
+First Step: require node-greypanel
 ```sh
-var GreyPanel = require( 'node-gp' );
+var GreyPanel = require( 'node-greypanel' );
 ```
 Second Step: Input your GP's account & password
 ```sh
-var GreyPanel = require( 'node-gp' );
+var GreyPanel = require( 'node-greypanel' );
 var options = {
     username:'fill your greypanel account',
     password: 'fill your greypanel password'
@@ -39,7 +39,7 @@ var options = {
 
 Third Step: create GreyPanel instance and to do login
 ```sh
-var GreyPanel = require( 'node-gp' );
+var GreyPanel = require( 'node-greypanel' );
 var options = {
     username:'fill your greypanel account',
     password: 'fill your greypanel password'
